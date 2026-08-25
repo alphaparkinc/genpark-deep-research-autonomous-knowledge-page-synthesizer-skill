@@ -1,0 +1,38 @@
+{
+  "name": "genpark-deep-research-autonomous-knowledge-page-synthesizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Deep research autonomous knowledge page synthesizer conducting cross-web multi-agent verification and interactive summary page generation.",
+  "author": "genpark",
+  "category": "deep-research",
+  "tags": [
+    "deep-research",
+    "knowledge-synthesis",
+    "autonomous-research",
+    "sparkpage",
+    "genspark-ai"
+  ],
+  "inputs": {
+    "research_subject": {
+      "type": "string"
+    },
+    "web_source_depth": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "sparkpage_id": {
+      "type": "string"
+    },
+    "analyzed_primary_sources_count": {
+      "type": "integer"
+    },
+    "multi_agent_consensus_score_pct": {
+      "type": "number"
+    },
+    "interactive_sparkpage_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
